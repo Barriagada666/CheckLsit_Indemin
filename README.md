@@ -10,3 +10,5 @@ Alternativamente, puedes descargar o clonar el proyecto en tu IDE preferido para
 El proyecto ya incluye la carpeta 'www' y la versión de Android con el plugin Capacitor.
 
 ¡Gracias por usar la Aplicación de nuestro grupo! Si tienes alguna pregunta o necesitas ayuda, no dudes en contactarnos.
+https://www.youtube.com/watch?v=Amy6J6t-xuY&t=7s
+https://www.youtube.com/watch?v=oIjdv6FYBs4
