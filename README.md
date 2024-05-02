@@ -1,18 +1,15 @@
-# todoList_Ionic_7
-"The Todo App: Stay organized and boost productivity. Add, update, and delete tasks with ease. Set priorities, due dates, and track progress. User-friendly interface for personal and team use. Streamline your workflow and stay on top of your todos."  Feel free to make any adjustments or modifications as needed.
+todoList_Ionic_7
+"La aplicación de tareas pendientes: Mantente organizado y aumenta la productividad. Agrega, actualiza y elimina tareas con facilidad. Establece prioridades, fechas de vencimiento y sigue el progreso. Interfaz amigable para uso personal y en equipo. Simplifica tu flujo de trabajo y mantente al tanto de tus pendientes."
 
-# Todo App
+Aplicación de Tareas Pendientes
+¡Bienvenido, usuario! Tienes dos opciones para probar la aplicación:
 
-Welcome, user! You have two options to try out the application:
+Opción 1: Instalar el APK
+Puedes instalar la aplicación descargando el archivo .apk ubicado en la carpeta src/apk/. Ten en cuenta que la aplicación fue construida para una versión mínima de SDK 22 y una versión objetivo de SDK 33.
 
-## Option 1: Install the APK
+Opción 2: Descargar o Clonar el Proyecto
+Alternativamente, puedes descargar o clonar el proyecto en tu IDE preferido para realizar personalizaciones adicionales. Siéntete libre de adaptarlo a tus necesidades específicas. Asegúrate de instalar los paquetes requeridos ejecutando npm install.
 
-You can install the application by downloading the .apk file located in the src/apk/ folder. Please note that the application was built for a minimum SDK version of 22 and a target SDK version of 33.
+El proyecto ya incluye la carpeta 'www' y la versión de Android con el plugin Capacitor.
 
-## Option 2: Download or Clone the Project
-
-Alternatively, you can download or clone the project into your preferred IDE for further customization. Feel free to adapt it to your specific needs. Make sure to install the required packages by running `npm install`.
-
-The project already includes the 'www' folder and the Android version with the Capacitor plugin.
-
-Thank you for using the Todo App! If you have any questions or need assistance, please don't hesitate to reach out.
+¡Gracias por usar la Aplicación de Tareas Pendientes! Si tienes alguna pregunta o necesitas ayuda, no dudes en contactarnos.
