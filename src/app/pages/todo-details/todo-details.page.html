@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Detalles de la tarea</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+  <ion-card class="shadow" *ngIf="tasks" >
+    <ion-card-header>
+      <ion-card-title class="title">Title: {{ tasks.title }}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      
+      <ion-item>
+        <ion-label>Descripción</ion-label>
+        <ion-text>{{ tasks.description }}</ion-text>
+      </ion-item>
+      <ion-item>
+        <ion-label>Completada</ion-label>
+        <ion-text>{{ tasks.completed ? 'Sí' : 'No' }}</ion-text>
+      </ion-item>
+      <ion-item>
+        <ion-label>Fecha de vencimiento</ion-label>
+        <ion-text>{{ tasks.dueDate | date }}</ion-text>
+      </ion-item>
+    </ion-card-content>
+    <ion-footer>
+      <ion-toolbar>
+        <ion-title></ion-title>
+        <ion-button (click)="openModal(tasks)" expand="block" shape="round">
+          Update
+        </ion-button>
+      </ion-toolbar>
+    </ion-footer>
+  </ion-card>
+</ion-content>
+
+<app-footer></app-footer>

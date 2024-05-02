@@ -1,0 +1,21 @@
+.ion-modal {
+    --width: 50vh;
+    --height: 80vh;
+}
+
+form{
+    margin: 20px 10px 10px 10px !important;
+    
+    border: 1px solid #cfcece;
+    padding: 3px;
+    
+
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 2px 8px;
+    background: rgb(255, 255, 255);
+    margin: 5px;
+    border-radius: 10px;
+}
+
+ion-content{
+    background-color: aquamarine !important;
+}

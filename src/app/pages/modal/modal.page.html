@@ -1,0 +1,38 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Modal</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="closeModal()">
+        <ion-icon name="close"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content color="gray">
+  <form (ngSubmit)="submitForm()">
+    <ion-item>
+      <!-- <ion-label>Título</ion-label> -->
+      <ion-input [(ngModel)]="title" name="title" placeholder="Título Aquí" required>Título</ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <!-- <ion-label>Descripción</ion-label> -->
+      <ion-textarea [(ngModel)]="description" name="description" placeholder="Escribe una descripción" required>Descripción</ion-textarea>
+    </ion-item>
+  
+    <ion-item>
+      <!-- <ion-label>Completado</ion-label> -->
+      <ion-toggle [(ngModel)]="completed" name="completed">Completado</ion-toggle>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label>Fecha de vencimiento</ion-label>
+      <ion-datetime [(ngModel)]="dueDate" name="dueDate"></ion-datetime>
+    </ion-item>
+  
+    <ion-button type="submit" expand="full" [disabled]="!title || !description || !dueDate">Enviar</ion-button>
+  </form>
+  
+</ion-content>
