@@ -31,8 +31,7 @@
                 "output": "./svg"
               }
             ],
-            "styles": ["src/theme/variables.scss", "src/global.scss","node_modules/bootstrap/dist/css/bootstrap.min.css",
-            "src/styles.scss"],
+            "styles": ["src/theme/variables.scss", "src/global.scss","node_modules/bootstrap/dist/css/bootstrap.min.css"],
             "scripts": []
           },
           "configurations": {
@@ -112,8 +111,7 @@
                 "output": "./svg"
               }
             ],
-            "styles": ["src/theme/variables.scss", "src/global.scss","node_modules/bootstrap/dist/css/bootstrap.min.css",
-            "src/styles.scss"],
+            "styles": ["src/theme/variables.scss", "src/global.scss","node_modules/bootstrap/dist/css/bootstrap.min.css"],
             "scripts": []
           },
           "configurations": {
