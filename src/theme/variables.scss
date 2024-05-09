@@ -235,3 +235,15 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+:root {
+  --ion-background-color: #ffffff;
+  --ion-text-color: #000000;
+}
+
+// Variables de modo oscuro
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ion-background-color: #121212;
+    --ion-text-color: #ffffff;
+  }
+}
