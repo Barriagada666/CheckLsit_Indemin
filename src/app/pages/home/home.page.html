@@ -20,7 +20,7 @@
 
 
       <ion-label slot="end" (click)="verDetalle(task)" class="delete">
-        <ion-checkbox aria-label="Checkbox" [(ngModel)]="task.completed" (ionChange)="updateTodoStatus(task)"></ion-checkbox>
+        <ion-checkbox role="checkbox" aria-label="Checkbox" [(ngModel)]="task.completed" (ionChange)="updateTodoStatus(task)"></ion-checkbox>
         <!-- Sección de texto -->
 
         <ion-button (click)="delete(task)" expand="block" fill="clear" shape="round">
