@@ -1,53 +1,70 @@
 /*
- * App Global CSS
+ * CSS Global de la aplicación
  * ----------------------------------------------------------------------------
- * Put style rules here that you want to apply globally. These styles are for
- * the entire app and not just one component. Additionally, this file can be
- * used as an entry point to import other CSS/Sass files to be included in the
- * output CSS.
- * For more information on global stylesheets, visit the documentation:
+ * Coloca aquí las reglas de estilo que deseas aplicar globalmente. Estos estilos son para
+ * toda la aplicación y no solo para un componente. Además, este archivo puede ser
+ * utilizado como un punto de entrada para importar otros archivos CSS/Sass que se incluirán en el
+ * archivo CSS de salida.
+ * Para obtener más información sobre hojas de estilo globales, visita la documentación:
  * https://ionicframework.com/docs/layout/global-stylesheets
  */
 
-/* Core CSS required for Ionic components to work properly */
+/* CSS principal requerido para que funcionen correctamente los componentes de Ionic */
 @import "@ionic/angular/css/core.css";
+@import "~bootstrap/dist/css/bootstrap.min.css";
 
-/* Basic CSS for apps built with Ionic */
+/* CSS básico para aplicaciones construidas con Ionic */
 @import "@ionic/angular/css/normalize.css";
 @import "@ionic/angular/css/structure.css";
 @import "@ionic/angular/css/typography.css";
 @import "@ionic/angular/css/display.css";
 
-/* Optional CSS utils that can be commented out */
+/* Utilidades de CSS opcionales que se pueden comentar */
 @import "@ionic/angular/css/padding.css";
 @import "@ionic/angular/css/float-elements.css";
 @import "@ionic/angular/css/text-alignment.css";
 @import "@ionic/angular/css/text-transformation.css";
 @import "@ionic/angular/css/flex-utils.css";
 
-
-:root{
+:root {
     --box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 8px;
 }
+
 .shadow {
-  box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 8px;
-  background: rgb(255, 255, 255);
-  margin: 5px;
-  border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 8px;
+    background: rgb(255, 255, 255);
+    margin: 5px;
+    border-radius: 10px;
 }
 
+ion-label,
+ion-item,
+h2 {
+    font-size: 4vw !important;
+}
 
-ion-label, ion-item, h2{
-  font-size: 4vw !important;
+ion-card-header,
+ion-card-title,
+ion-toolbar,
+ion-title {
+    font-size: 4vw !important;
 }
-ion-card-header, ion-card-title, ion-toolbar, ion-title{
-  font-size: 4vw !important;
-}
+
 @media (min-width: 720px) {
-  ion-label, ion-item, h2{
-    font-size: 2vw !important;
-  }
-  ion-card-header, ion-card-title, ion-toolbar, ion-title{
-    font-size: 2vw !important;
-  }
+    ion-label,
+    ion-item,
+    h2 {
+        font-size: 2vw !important;
+    }
+    ion-card-header,
+    ion-card-title,
+    ion-toolbar,
+    ion-title {
+        font-size: 2vw !important;
+    }
+}
+$color-primario: #007bff;
+$color-secundario: #6c757d;
+body {
+  font-family: Arial, sans-serif;
 }

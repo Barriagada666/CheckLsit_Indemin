@@ -1,23 +1,18 @@
+ion-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .container {
-    position: absolute;
-  }
-  
-  ion-title {
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-    color: rgb(8, 0, 0); /* Adjust the colour as needed */
-    font-size: 40px; /* Adjust the font size as needed */
-    text-align: center;
-  }
-  
-  ion-img {
-    top: 15%;
-    display: block;
-    width: 70%;
-    height: auto;
-    margin: 0 auto;
-  }
-  
+  text-align: center;
+}
+
+ion-img {
+  max-width: 100%;
+  margin-top: 20px;
+}
+
+ion-fab-button {
+  background-color: var(--ion-color-primary);
+}
