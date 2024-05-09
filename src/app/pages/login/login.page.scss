@@ -1,9 +1,22 @@
-ion-content {
-  ion-list {
-    ion-item {
-      ion-label {
-        --ion-color-base: var(--ion-color-primary);
-      }
-    }
-  }
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
+
+.logo-container img {
+  max-width: 400px;
+}
+
+ion-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ion-list {
+  max-width: 300px;
+  width: 100%;
+}
+
+

@@ -1,38 +1,38 @@
 <ion-header>
   <ion-toolbar>
-   
-        <ion-title>Check-List</ion-title>
-    
-   
+
+        <ion-title>Creacion Check-List</ion-title>
+
+
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  
+
   <ion-list>
-   
+
     <ion-item class="shadow" *ngFor="let task of tasks" >
       <ion-label  (click)="verDetalle(task)">
         <!-- Sección de texto -->
         <h2>{{task.title}}</h2>
-       
+
       </ion-label>
-    
-      
+
+
       <ion-label slot="end" (click)="verDetalle(task)" class="delete">
         <ion-checkbox aria-label="Checkbox" [(ngModel)]="task.completed" (ionChange)="updateTodoStatus(task)"></ion-checkbox>
         <!-- Sección de texto -->
-        
+
         <ion-button (click)="delete(task)" expand="block" fill="clear" shape="round">
           <ion-icon slot="icon-only" color="danger" name="trash"></ion-icon>
         </ion-button>
-          
-        
-       
+
+
+
       </ion-label>
     </ion-item>
-    
-    
+
+
   </ion-list>
 
   <ion-fab vertical="bottom" horizontal="end" slot="fixed">
@@ -41,6 +41,6 @@
     </ion-fab-button>
   </ion-fab>
 
- 
+
 </ion-content>
 <app-footer></app-footer>
